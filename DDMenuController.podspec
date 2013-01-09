@@ -7,5 +7,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source_files = 'DDMenuController/DDMenuController.{h,m}'
   s.framework  = 'CoreGraphics,QuartzCore'
+  s.requires_arc = true
 end
 
