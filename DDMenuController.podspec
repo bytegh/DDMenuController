@@ -8,5 +8,6 @@ Pod::Spec.new do |s|
   s.source_files = 'DDMenuController/DDMenuController.{h,m}'
   s.framework  = 'CoreGraphics,QuartzCore'
   s.requires_arc = true
+  s.resources = 'DDMenuController/Resources/*'
 end
 
