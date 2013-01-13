@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/bytegh/DDMenuController.git'}
   s.platform     = :ios
   s.source_files = 'DDMenuController/DDMenuController.{h,m}'
+  s.resources = 'DDMenuController/Resources/*'
   s.framework  = 'CoreGraphics,QuartzCore'
   s.requires_arc = true
-  s.resources = 'DDMenuController/Resources/*'
 end
 
