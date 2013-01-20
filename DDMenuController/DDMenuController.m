@@ -746,4 +746,9 @@
     
 }
 
+- (NSInteger)supportedInterfaceOrientations
+{
+	    return 0;
+}
+
 @end
